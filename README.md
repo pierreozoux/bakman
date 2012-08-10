@@ -37,11 +37,7 @@ The filename of your backups should have the following "regex" pattern
 
 	.*?[YYYYmmddTHHMM].*
 
-Optional
---------
+### Rsync
 
-### RSync - Non-interactive scipt
-
-If you want to avoid your script asking you the password for the remote host, please consider to exchange SSH keys.
-
-Here is a simple tutorial : http://oreilly.com/pub/h/66
+ - The remote folder has to be created.
+ - You have to exchange SSH keys between your computer and the remote host. Here is a quick tutorial for that : http://oreilly.com/pub/h/66

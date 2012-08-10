@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
     "lib/backup_management.rb",
   ]
   s.homepage    =
-    'http://rubygems.org/gems/hola'
+    'http://rubygems.org/gems/backup_management'
 end
