@@ -1,4 +1,4 @@
-backup_management
+bakman
 =================
 
 A sinmple way to manage your backup files.
@@ -7,7 +7,7 @@ A sinmple way to manage your backup files.
 
 Put this in your script (backup.rb)
 
-	require 'backup_management'
+	require 'bakman'
 
 	backups = BackupList.new("/path/to/your/folder", "name_of_your_backup")
 	# Keep 1 backup for the last 4 years
@@ -17,9 +17,9 @@ Put this in your script (backup.rb)
 	# sync your backups
 	backups.rsync!("user@host", "/path/to/your/remote/folder")
 
-And smoke it!
+And enjoy it!
 	
-	$ gem install backup_management
+	$ gem install bakman
 	$ ruby backup.rb
 	
 	2 backup(s) will be kept and 1 backup(s) will be deleted.
