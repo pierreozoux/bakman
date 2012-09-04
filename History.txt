@@ -1,0 +1,6 @@
+=== 1.0.0 2012-09-03
+
+* changed BackupList.rotate! to BackupList.rotate
+Because it is no longuer deleting files.
+*Add various Methods
+*Corrected a major bug in the manner to handle GFS backup rotation scheme. The initialisation of the recurrence was not working...
