@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.authors     = ["Pierre Ozoux"]
   s.email       = 'pierre.ozoux@gmail.com'
   s.files       = [
-    "lib/bakman.rb"
+    "lib/bakman.rb",
     "lib/bakman/backup.rb",
-    "lib/bakman/backuplist.rb"
+    "lib/bakman/backuplist.rb",
   ]
   s.homepage    =
     'http://rubygems.org/gems/bakman'
