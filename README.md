@@ -1,7 +1,7 @@
 bakman
 =================
 
-A sinmple way to manage your backup files.
+A simple way to manage your backup files.
 
 ### Usage
 
@@ -41,3 +41,5 @@ The filename of your backups should have the following "regex" pattern
 
  - The remote folder has to be created.
  - You have to exchange SSH keys between your computer and the remote host. Here is a quick tutorial for that : http://oreilly.com/pub/h/66
+
+PS : the name changed from backup-management to bakman (easier to remember :) )
