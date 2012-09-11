@@ -1,3 +1,7 @@
+=== 1.0.1 2012-09-11
+
+* added "-delete" option to rsync command to avoid keeping all the backups on the remote host.
+
 === 1.0.0 2012-09-03
 
 * changed BackupList.rotate! to BackupList.rotate

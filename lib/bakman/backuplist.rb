@@ -122,6 +122,6 @@ class BackupList < Array
   # /!\ the folder has to exist on the remote host.
   def rsync!(host, remote_folder)
   	puts "rsync #{folder}/#{name}* #{host}:#{remote_folder}"
-  	`rsync #{folder}/#{name}* #{host}:#{remote_folder}`
+  	`rsync --delete #{folder}/#{name}* #{host}:#{remote_folder}`
   end
 end
